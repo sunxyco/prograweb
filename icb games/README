@@ -1,0 +1,53 @@
+Juegos que dan Hambre
+
+Colección de mini-juegos e interfaces interactivas desarrolladas con HTML5, CSS3 y JavaScript. El proyecto utiliza Bootstrap 5 para el diseño responsivo y el manejo de componentes de interfaz.
+Características Técnicas
+
+    Framework CSS: Bootstrap 5.3.3 para grillas, tarjetas y navegación.
+
+    Animaciones: Uso de keyframes CSS para efectos de retroalimentación visual (efecto martillazo y transiciones de estado).
+
+    Lógica Front-end: JavaScript puro (Vanilla JS) para el manejo de estados de juego, manipulación del DOM y detección de colisiones en juegos de grilla.
+
+    Interactividad: Eventos de teclado para navegación y eventos de mouse para mecánicas de precisión.
+
+Catálogo de Juegos
+
+    Contador Interactivo: Sistema de incremento y decremento con retroalimentación visual al cambiar el valor.
+
+    Adivina el Número: Búsqueda lógica de un valor aleatorio con pistas térmicas basadas en colores.
+
+    Piedra, Papel o Tijera: Simulación del juego clásico con animaciones sincronizadas entre el usuario y la CPU.
+
+    Tiempo de Reacción: Prueba de velocidad de respuesta basada en cambios de estado de color en el contenedor.
+
+    Trivia de Fauna: Cuestionario de selección múltiple con aleatorización de preguntas y registro de historial.
+
+    Reflejos: Captura de objetivos móviles en un área delimitada con temporizador de 10 segundos.
+
+    Tic Tac Toe: Juego de estrategia para dos jugadores con validación de líneas ganadoras y empate.
+
+    Snake: Implementación del juego de la serpiente en una grilla de 8x8 con control por teclado (WASD).
+
+    Wea de Topos: Juego de precisión con cursor personalizado y ventana de oportunidad para interactuar con objetivos emergentes.
+
+Estructura del Proyecto
+
+    index.html: Contiene el marcado de la interfaz, secciones de Bootstrap y la estructura de los juegos.
+
+    styles.css: Define las animaciones de los sprites, estados de las celdas y el comportamiento del seguidor del mouse.
+
+    app.js: Implementa la máquina de estados de cada mini-juego y la gestión de recursos de audio.
+
+Instalación
+
+    Clonar el repositorio o descargar los archivos fuente.
+
+    Verificar que las carpetas images/ y audios/ contengan los recursos necesarios para la correcta ejecución de los efectos.
+
+    Ejecutar el archivo index.html en un servidor local o directamente en el navegador.
+
+Créditos
+
+Proyecto desarrollado para la cátedra de Diseño Web (2026).
+Ignacio Morales
